@@ -50,7 +50,7 @@ The model expects a CSV training set with the following columns and data:
 |other|Checkbox indicating the job category of the worker (X or blank)|X|
 
 # Installation 
-`pip install git+https://github.com/USDepartmentofLabor/neural_autocoder.git`
+`pip install git+https://github.com/USDepartmentofLabor/soii_neural_autocoder.git`
 
 # Example Usage
 Modify the `data_file` variable in `examples/big_single_seq_180_lr4e-4.py` to point
