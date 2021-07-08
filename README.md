@@ -52,6 +52,13 @@ The model expects a CSV training set with the following columns and data:
 # Installation 
 `pip install git+https://github.com/USDepartmentofLabor/soii_neural_autocoder.git`
 
+## Alternatively, with conda
+- clone the repository wherever you'd like to use it  
+- navigate to the repository
+- `conda create env -f env`  
+- `conda-develop . -n bls_ml`  
+- `conda activate bls_ml`
+
 # Example Usage
 Modify the `data_file` variable in `examples/big_single_seq_180_lr4e-4.py` to point
 to an appropriately formatted training dataset, or leave as is to use the dummy
